@@ -1,23 +1,14 @@
 {
-  "ip_blocks": {
-    "by_registrar": [
-      {"name": "ARIN", "count": 50, "hostname": "arin.net"},
-      {"name": "AT&T Bell Laboratories", "count": 40, "hostname": "att.com"},
-      {"name": "APNIC", "count": 40, "hostname": "apnic.net"}
-    ],
-    "by_subnet_size": [
-      {"name": "29", "count": 61 },
-      {"name": "28", "count": 17 },
-      {"name": "27", "count": 7 },
-      {"name": "13", "count": 2 },
-      {"name": "16", "count": 2 },
-      {"name": "22", "count": 2 },
-      {"name": "24", "count": 2 },
-      {"name": "25", "count": 2 },
-      {"name": "14", "count": 2 },
-      {"name": "32", "count": 1 },
-      {"name": "30", "count": 1 },
-      {"name": "26", "count": 1 }
-    ]
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
 }
