@@ -28,5 +28,84 @@
         ]
       }
     ]
+  },
+  "associated": {
+    "meta": {},
+    "filters": [
+      {
+        "name": "registrant",
+        "values": [
+          {"name": "Wal-Mart Stores, Inc.", "count": 100, "hostname": "walmart.com"}
+        ]
+      },
+      {
+        "name": "mail_provider",
+        "values": [
+          {"name": "Proofpoint, Inc.", "count": 4, "hostname": "proofpoint.com"},
+          {"name": "ManagedWay", "count": 2, "hostname": "managedway.com"},
+          {"name": "Barracuda Networks, Inc.", "count": 2, "hostname": "barracuda.com"},
+          {"name": "DataPipe, Inc.", "count": 2, "hostname": "northconcepts.com"},
+          {"name": "MessageLabs Inc.", "count": 1, "hostname": "msgafrica.com"},
+          {"name": "Wal-Mart Stores, Inc.", "count": 1, "hostname": "walmart.com"},
+          {"name": "Rackspace Ltd.", "count": 1, "hostname": "rackspace.com"},
+          {"name": "Not Found", "count": 87, "hostname": "notfoundcompany.com"}
+        ]
+      },
+      {
+        "name": "registrar",
+        "values": [
+          {"name": "MarkMonitor, Inc.", "count": 91, "hostname": "markmonitor.com"},
+          {"name": "CSC Corporate Domains Inc.", "count": 9, "hostname": "cscc.edu"}
+        ]
+      },
+      {
+        "name": "hosting_company",
+        "values": [
+          {"name": "Rackspace Ltd.", "count": 9, "hostname": "rackspace.com"},
+          {"name": "Akamai Technologies, Inc.", "count": 2, "hostname": "akamai.com"},
+          {"name": "Wal-Mart Stores, Inc.", "count": 1, "hostname": "walmart.com"},
+          {"name": "Proofpoint, Inc.", "count": 4, "hostname": "proofpoint.com"},
+          {"name": "Microsoft Corporation", "count": 2, "hostname": "microsoft.com"},
+          {"name": "DataPipe, Inc.", "count": 2, "hostname": "northconcepts.com"},
+          {"name": "MessageLabs Inc.", "count": 1, "hostname": "msgafrica.com"},
+          {"name": "Not Found", "count": 87, "hostname": "notfoundcompany.com"}
+        ]
+      },
+      {
+        "name": "creation_year",
+        "values": [
+          {"name": "2017", "count": 1},
+          {"name": "2016", "count": 1},
+          {"name": "2015", "count": 1},
+          {"name": "2014", "count": 1},
+          {"name": "2013", "count": 1},
+          {"name": "2012", "count": 1},
+          {"name": "2011", "count": 1},
+          {"name": "2010", "count": 1},
+          {"name": "2009", "count": 1},
+          {"name": "2008", "count": 1},
+          {"name": "2007", "count": 1},
+          {"name": "2006", "count": 1},
+          {"name": "2005", "count": 1},
+          {"name": "2004", "count": 1},
+          {"name": "2003", "count": 1},
+          {"name": "2002", "count": 1},
+          {"name": "2001", "count": 1},
+          {"name": "2000", "count": 1},
+          {"name": "1999", "count": 1},
+          {"name": "1995", "count": 1},
+          {"name": "1991", "count": 1}
+        ]
+      },
+      {
+        "name": "expiration_year",
+        "values": [
+          {"name": "2017", "count": 2},
+          {"name": "2018", "count": 2},
+          {"name": "2019", "count": 2},
+          {"name": "2020", "count": 2}
+        ]
+      }
+    ]
   }
 }
