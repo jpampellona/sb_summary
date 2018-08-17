@@ -145,6 +145,14 @@
           {"name": "2019", "count": 2},
           {"name": "2020", "count": 2}
         ]
+      },
+      {
+        "name": "country",
+        "values": [
+          {"name": "US", "count": 10},
+          {"name": "UK", "count": 10},
+          {"name": "Not Found", "count": 80}
+        ]
       }
     ]
   }
