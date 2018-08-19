@@ -1,7 +1,7 @@
 {
   "ip_blocks": {
     "meta": {},
-    "filters": [
+    "stats": [
       {
         "name": "registrar",
         "values": [
@@ -31,7 +31,7 @@
   },
   "associated": {
     "meta": {},
-    "filters": [
+    "stats": [
       {
         "name": "registrant",
         "values": [
@@ -110,7 +110,7 @@
   },
   "ssl": {
     "meta": {},
-    "filters": [
+    "stats": [
       {
         "name": "creation_year",
         "values": [
