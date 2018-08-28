@@ -1,159 +1,487 @@
 {
-  "ip_blocks": {
-    "meta": {},
-    "stats": [
-      {
-        "name": "registrar",
-        "values": [
-          {"name": "ARIN", "count": 50, "hostname": "arin.net"},
-          {"name": "AT&T Bell Laboratories", "count": 40, "hostname": "att.com"},
-          {"name": "APNIC", "count": 40, "hostname": "apnic.net"}
-        ]
-      },
-      {
-        "name": "subnet_size",
-        "values": [
-          {"name": "29", "count": 61 },
-          {"name": "28", "count": 17 },
-          {"name": "27", "count": 7 },
-          {"name": "13", "count": 2 },
-          {"name": "16", "count": 2 },
-          {"name": "22", "count": 2 },
-          {"name": "24", "count": 2 },
-          {"name": "25", "count": 2 },
-          {"name": "14", "count": 2 },
-          {"name": "32", "count": 1 },
-          {"name": "30", "count": 1 },
-          {"name": "26", "count": 1 }
-        ]
-      }
-    ]
-  },
-  "associated": {
-    "meta": {},
-    "stats": [
-      {
-        "name": "registrant",
-        "values": [
-          {"name": "Wal-Mart Stores, Inc.", "count": 100, "hostname": "walmart.com"}
-        ]
-      },
-      {
-        "name": "mail_provider",
-        "values": [
-          {"name": "Proofpoint, Inc.", "count": 4, "hostname": "proofpoint.com"},
-          {"name": "ManagedWay", "count": 2, "hostname": "managedway.com"},
-          {"name": "Barracuda Networks, Inc.", "count": 2, "hostname": "barracuda.com"},
-          {"name": "DataPipe, Inc.", "count": 2, "hostname": "northconcepts.com"},
-          {"name": "MessageLabs Inc.", "count": 1, "hostname": "msgafrica.com"},
-          {"name": "Wal-Mart Stores, Inc.", "count": 1, "hostname": "walmart.com"},
-          {"name": "Rackspace Ltd.", "count": 1, "hostname": "rackspace.com"},
-          {"name": "Not Found", "count": 87, "hostname": "notfoundcompany.com"}
-        ]
-      },
-      {
-        "name": "registrar",
-        "values": [
-          {"name": "MarkMonitor, Inc.", "count": 91, "hostname": "markmonitor.com"},
-          {"name": "CSC Corporate Domains Inc.", "count": 9, "hostname": "cscc.edu"}
-        ]
-      },
-      {
-        "name": "hosting_company",
-        "values": [
-          {"name": "Rackspace Ltd.", "count": 9, "hostname": "rackspace.com"},
-          {"name": "Akamai Technologies, Inc.", "count": 2, "hostname": "akamai.com"},
-          {"name": "Wal-Mart Stores, Inc.", "count": 1, "hostname": "walmart.com"},
-          {"name": "Proofpoint, Inc.", "count": 4, "hostname": "proofpoint.com"},
-          {"name": "Microsoft Corporation", "count": 2, "hostname": "microsoft.com"},
-          {"name": "DataPipe, Inc.", "count": 2, "hostname": "northconcepts.com"},
-          {"name": "MessageLabs Inc.", "count": 1, "hostname": "msgafrica.com"},
-          {"name": "Not Found", "count": 87, "hostname": "notfoundcompany.com"}
-        ]
-      },
-      {
-        "name": "creation_year",
-        "values": [
-          {"name": "2017", "count": 1},
-          {"name": "2016", "count": 1},
-          {"name": "2015", "count": 1},
-          {"name": "2014", "count": 1},
-          {"name": "2013", "count": 1},
-          {"name": "2012", "count": 1},
-          {"name": "2011", "count": 1},
-          {"name": "2010", "count": 1},
-          {"name": "2009", "count": 1},
-          {"name": "2008", "count": 1},
-          {"name": "2007", "count": 1},
-          {"name": "2006", "count": 1},
-          {"name": "2005", "count": 1},
-          {"name": "2004", "count": 1},
-          {"name": "2003", "count": 1},
-          {"name": "2002", "count": 1},
-          {"name": "2001", "count": 1},
-          {"name": "2000", "count": 1},
-          {"name": "1999", "count": 1},
-          {"name": "1995", "count": 1},
-          {"name": "1991", "count": 1}
-        ]
-      },
-      {
-        "name": "expiration_year",
-        "values": [
-          {"name": "2017", "count": 2},
-          {"name": "2018", "count": 2},
-          {"name": "2019", "count": 2},
-          {"name": "2020", "count": 2}
-        ]
-      }
-    ]
-  },
-  "ssl": {
-    "meta": {},
-    "stats": [
-      {
-        "name": "creation_year",
-        "values": [
-          {"name": "2017", "count": 1},
-          {"name": "2016", "count": 1},
-          {"name": "2015", "count": 1},
-          {"name": "2014", "count": 1},
-          {"name": "2013", "count": 1},
-          {"name": "2012", "count": 1},
-          {"name": "2011", "count": 1},
-          {"name": "2010", "count": 1},
-          {"name": "2009", "count": 1},
-          {"name": "2008", "count": 1},
-          {"name": "2007", "count": 1},
-          {"name": "2006", "count": 1},
-          {"name": "2005", "count": 1},
-          {"name": "2004", "count": 1},
-          {"name": "2003", "count": 1},
-          {"name": "2002", "count": 1},
-          {"name": "2001", "count": 1},
-          {"name": "2000", "count": 1},
-          {"name": "1999", "count": 1},
-          {"name": "1995", "count": 1},
-          {"name": "1991", "count": 1}
-        ]
-      },
-      {
-        "name": "expiration_year",
-        "values": [
-          {"name": "2017", "count": 2},
-          {"name": "2018", "count": 2},
-          {"name": "2019", "count": 2},
-          {"name": "2020", "count": 2}
-        ]
-      },
-      {
-        "name": "country",
-        "values": [
-          {"name": "US", "count": 10},
-          {"name": "UK", "count": 10},
-          {"name": "Not Found", "count": 80}
-        ]
-      }
-    ]
-  }
+    "ip_blocks":
+    {
+        "meta":
+        {},
+        "stats": [
+        {
+            "name": "registrar",
+            "values": [
+            {
+                "name": "ARIN",
+                "count": 50,
+                "hostname": "arin.net"
+            },
+            {
+                "name": "AT&T Bell Laboratories",
+                "count": 40,
+                "hostname": "att.com"
+            },
+            {
+                "name": "APNIC",
+                "count": 40,
+                "hostname": "apnic.net"
+            }]
+        },
+        {
+            "name": "subnet_size",
+            "values": [
+            {
+                "name": "29",
+                "count": 61
+            },
+            {
+                "name": "28",
+                "count": 17
+            },
+            {
+                "name": "27",
+                "count": 7
+            },
+            {
+                "name": "13",
+                "count": 2
+            },
+            {
+                "name": "16",
+                "count": 2
+            },
+            {
+                "name": "22",
+                "count": 2
+            },
+            {
+                "name": "24",
+                "count": 2
+            },
+            {
+                "name": "25",
+                "count": 2
+            },
+            {
+                "name": "14",
+                "count": 2
+            },
+            {
+                "name": "32",
+                "count": 1
+            },
+            {
+                "name": "30",
+                "count": 1
+            },
+            {
+                "name": "26",
+                "count": 1
+            }]
+        }]
+    },
+    "associated":
+    {
+        "meta":
+        {},
+        "stats": [
+        {
+            "name": "total",
+            "count": 14879
+        },
+        {
+            "name": "domains",
+            "count": 14807
+        },
+        {
+            "name": "orgs",
+            "count": 28
+        },
+        {
+            "name": "tlds",
+            "count": 408
+        },
+        {
+            "values": [
+            {
+                "key": 1404776336000,
+                "count": 21
+            },
+            {
+                "key": 1476795310000,
+                "count": 19
+            },
+            {
+                "key": 1195815482000,
+                "count": 17
+            },
+            {
+                "key": 1195815483000,
+                "count": 17
+            },
+            {
+                "key": 1441152788000,
+                "count": 16
+            },
+            {
+                "key": 1103385847000,
+                "count": 15
+            },
+            {
+                "key": 1195649623000,
+                "count": 13
+            },
+            {
+                "key": 1196079585000,
+                "count": 13
+            },
+            {
+                "key": 1214587822000,
+                "count": 13
+            },
+            {
+                "key": 1441152787000,
+                "count": 12
+            },
+            {
+                "key": 1431068327000,
+                "count": 11
+            },
+            {
+                "key": 1453340907000,
+                "count": 9
+            },
+            {
+                "key": 1499746450000,
+                "count": 9
+            },
+            {
+                "key": 1322976809000,
+                "count": 8
+            },
+            {
+                "key": 1434843817000,
+                "count": 8
+            }],
+            "name": "top_created"
+        },
+        {
+            "values": [
+            {
+                "key": 1536537599000,
+                "count": 73
+            },
+            {
+                "key": 1536451199000,
+                "count": 72
+            },
+            {
+                "key": 1529193599000,
+                "count": 40
+            },
+            {
+                "key": 1534723199000,
+                "count": 39
+            },
+            {
+                "key": 1528502399000,
+                "count": 38
+            },
+            {
+                "key": 1535327999000,
+                "count": 34
+            },
+            {
+                "key": 1534809599000,
+                "count": 29
+            },
+            {
+                "key": 1543708799000,
+                "count": 29
+            },
+            {
+                "key": 1528415999000,
+                "count": 28
+            },
+            {
+                "key": 1530230399000,
+                "count": 28
+            },
+            {
+                "key": 1542412799000,
+                "count": 28
+            },
+            {
+                "key": 1497657599000,
+                "count": 26
+            },
+            {
+                "key": 1518047999000,
+                "count": 26
+            },
+            {
+                "key": 1533254399000,
+                "count": 26
+            },
+            {
+                "key": 1496361599000,
+                "count": 24
+            }],
+            "name": "top_expires"
+        },
+        {
+            "values": [
+            {
+                "key": "apple inc.",
+                "count": 10476
+            },
+            {
+                "key": "beats by dr. dre",
+                "count": 4172
+            },
+            {
+                "key": "csc corporate domains, inc.",
+                "count": 1186
+            },
+            {
+                "key": "beats electronics, llc",
+                "count": 284
+            },
+            {
+                "key": "apple computer, inc.",
+                "count": 105
+            },
+            {
+                "key": "apple operations europe, singapore branch",
+                "count": 58
+            },
+            {
+                "key": "00.623.904/0001-73",
+                "count": 30
+            },
+            {
+                "key": "corporation service company",
+                "count": 30
+            },
+            {
+                "key": "apple distribution international",
+                "count": 24
+            },
+            {
+                "key": "apple ab",
+                "count": 20
+            },
+            {
+                "key": "lexsynergy",
+                "count": 19
+            },
+            {
+                "key": "apple gmbh",
+                "count": 14
+            },
+            {
+                "key": "apple asia limited",
+                "count": 11
+            },
+            {
+                "key": "apple inc",
+                "count": 9
+            },
+            {
+                "key": "apple france",
+                "count": 7
+            }],
+            "name": "top_orgs"
+        },
+        {
+            "values": [
+            {
+                "key": "csc corporate domains, inc.",
+                "count": 10105
+            },
+            {
+                "key": "markmonitor inc.",
+                "count": 975
+            },
+            {
+                "key": "corporate domains, inc.",
+                "count": 658
+            },
+            {
+                "key": "csc corporate domains, inc. (r129-lrms)",
+                "count": 650
+            },
+            {
+                "key": "csc corporate domains inc.",
+                "count": 417
+            },
+            {
+                "key": "csc corporate domains",
+                "count": 330
+            },
+            {
+                "key": "markmonitor, inc.",
+                "count": 295
+            },
+            {
+                "key": "lexsynergy limited",
+                "count": 235
+            },
+            {
+                "key": "markmonitor, inc (tlds)",
+                "count": 221
+            },
+            {
+                "key": "csc corporate domains, inc. (r63-afin)",
+                "count": 119
+            },
+            {
+                "key": "csc corporate domains|godaddy.com, inc.",
+                "count": 108
+            },
+            {
+                "key": "csc corporation service company",
+                "count": 91
+            },
+            {
+                "key": "csc corporate domains, inc",
+                "count": 81
+            },
+            {
+                "key": "mark monitor inc.",
+                "count": 72
+            },
+            {
+                "key": "markmonitor",
+                "count": 68
+            }],
+            "name": "top_registrar"
+        }]
+    },
+    "ssl":
+    {
+        "meta":
+        {},
+        "stats": [
+        {
+            "name": "creation_year",
+            "values": [
+            {
+                "name": "2017",
+                "count": 1
+            },
+            {
+                "name": "2016",
+                "count": 1
+            },
+            {
+                "name": "2015",
+                "count": 1
+            },
+            {
+                "name": "2014",
+                "count": 1
+            },
+            {
+                "name": "2013",
+                "count": 1
+            },
+            {
+                "name": "2012",
+                "count": 1
+            },
+            {
+                "name": "2011",
+                "count": 1
+            },
+            {
+                "name": "2010",
+                "count": 1
+            },
+            {
+                "name": "2009",
+                "count": 1
+            },
+            {
+                "name": "2008",
+                "count": 1
+            },
+            {
+                "name": "2007",
+                "count": 1
+            },
+            {
+                "name": "2006",
+                "count": 1
+            },
+            {
+                "name": "2005",
+                "count": 1
+            },
+            {
+                "name": "2004",
+                "count": 1
+            },
+            {
+                "name": "2003",
+                "count": 1
+            },
+            {
+                "name": "2002",
+                "count": 1
+            },
+            {
+                "name": "2001",
+                "count": 1
+            },
+            {
+                "name": "2000",
+                "count": 1
+            },
+            {
+                "name": "1999",
+                "count": 1
+            },
+            {
+                "name": "1995",
+                "count": 1
+            },
+            {
+                "name": "1991",
+                "count": 1
+            }]
+        },
+        {
+            "name": "expiration_year",
+            "values": [
+            {
+                "name": "2017",
+                "count": 2
+            },
+            {
+                "name": "2018",
+                "count": 2
+            },
+            {
+                "name": "2019",
+                "count": 2
+            },
+            {
+                "name": "2020",
+                "count": 2
+            }]
+        },
+        {
+            "name": "country",
+            "values": [
+            {
+                "name": "US",
+                "count": 10
+            },
+            {
+                "name": "UK",
+                "count": 10
+            },
+            {
+                "name": "Not Found",
+                "count": 80
+            }]
+        }]
+    }
 }
